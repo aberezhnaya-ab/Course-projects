@@ -1,0 +1,76 @@
+.links {
+    text-align: right;
+    margin-top: 15px;
+    padding-right: 10px;
+}
+.links a {
+    margin-right: 20px;
+}
+.search {
+    text-align: center;
+}
+.search_input {
+    display: block;
+    width: 500px;
+    margin: 300px auto 0;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    outline: none;
+}
+.search_submit {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    outline: none;
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.search_submit:hover {
+    border: 1px solid darkgrey;
+}
+.search_adv {
+    text-align: left;
+}
+.search_all, .search_exact, .search_any, .search_none {
+    width: 400px;
+    margin-top: 15px;
+    margin-left: 30px;
+    padding: 10px 25px;
+    font-size: 16px;
+    border: 1px solid lightgrey;
+}
+.search_all {
+margin-left: 63px;
+}
+.search_exact {
+ margin-left: 79px;
+}
+.search_any {
+margin-left: 38px;
+}
+.search_submit_adv {
+    display: block;
+    margin-top: 15px;
+    margin-left: 455px;
+    padding: 10px 25px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(86, 86, 234);
+    border: 1px solid rgba(86, 86, 234, 0.823);
+    outline: none;
+}
+.search_submit_adv:hover {
+    border-color: rgba(70, 70, 195, 0.59);
+    background-color: rgba(86, 86, 234, 0.892);
+}
+p {
+  font-size: 20px;  
+}
